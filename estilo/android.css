@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+header {
+    background-image: linear-gradient(to top, #247c4b, #39cc7a);
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+}
+
+header > p {
+    color: #0d331f;
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgba(132,225,173,255);
+}
+
+section > h2 {
+    @font-face {
+        font-family: 'idroid';
+        src: url('fontes/idroid.otf') format('opentype');
+    }
+}
+
+#noticias {
+    background-color: white;
+    padding: 1px 5px 3px 5px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #0d331f;
+}
